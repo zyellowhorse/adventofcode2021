@@ -28,12 +28,7 @@ def Calculate_Submarine_Power_Consumption():
         else:
             epsilonRate = epsilonRate + "0"
     return int(gammaRate, 2) * int(epsilonRate, 2)
-    #print("gammaRate: " + gammaRate)
-    #print("epsilonRage: " + epsilonRate)
-    #print(int(gammaRate,2))
-    #print(int(epsilonRate,2))
    
-
 
 if __name__ == '__main__':
     main()
